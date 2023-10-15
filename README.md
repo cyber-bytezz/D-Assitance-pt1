@@ -1,3 +1,14 @@
+## Project Structure
+    ├── driver
+    ├── Jarvis              # Main folder for features 
+    │   ├── config          # Contains all secret API Keys
+    │   ├── features        # All functionalities of JARVIS 
+    │   └── utils           # GUI images
+    ├── __init__.py         # Definition of feature's functions
+    ├── gui.ui              # GUI file (in .ui format)
+    ├── main.py             # main driver program of Jarvis
+    ├── requirements.txt    # all dependencies of the program
+
 ## Module Imports
 
 In this project, we've imported various libraries to enable different functionalities:
